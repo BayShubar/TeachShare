@@ -9,7 +9,7 @@ import {store} from './store/Store.js'
 
 Vue.use(VueResource);
 Vue.use(Auth);
-Vue.http.options.root = 'http://teach/'
+Vue.http.options.root = 'http://teachshare/'
 Vue.http.headers.common['Authorization'] = 'Bearer ' + Vue.auth.getToken();
 
 
